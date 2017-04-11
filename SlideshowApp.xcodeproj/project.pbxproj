@@ -12,6 +12,15 @@
 		C9FCD8981E8B399400543D1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9FCD8961E8B399400543D1F /* Main.storyboard */; };
 		C9FCD89A1E8B399400543D1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9FCD8991E8B399400543D1F /* Assets.xcassets */; };
 		C9FCD89D1E8B399400543D1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9FCD89B1E8B399400543D1F /* LaunchScreen.storyboard */; };
+		C9FCD8A51E8B81EE00543D1F /* ExpandedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCD8A41E8B81EE00543D1F /* ExpandedViewController.swift */; };
+		C9FCD8A71E8BDF7E00543D1F /* apple_an_evolution_in_photos_000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9FCD8A61E8BDF7E00543D1F /* apple_an_evolution_in_photos_000.jpg */; };
+		C9FCD8AA1E8BDFCB00543D1F /* apple_an_evolution_in_photos_001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9FCD8A91E8BDFCB00543D1F /* apple_an_evolution_in_photos_001.jpg */; };
+		C9FCD8AC1E8BDFF200543D1F /* mac-128k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9FCD8AB1E8BDFF200543D1F /* mac-128k.jpg */; };
+		C9FCD8AE1E8BE00300543D1F /* apple_an_evolution_in_photos_023.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9FCD8AD1E8BE00300543D1F /* apple_an_evolution_in_photos_023.jpg */; };
+		C9FCD8B01E8BE02000543D1F /* apple_an_evolution_in_photos_027.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9FCD8AF1E8BE02000543D1F /* apple_an_evolution_in_photos_027.jpg */; };
+		C9FCD8B21E8BE02E00543D1F /* apple_an_evolution_in_photos_029.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9FCD8B11E8BE02E00543D1F /* apple_an_evolution_in_photos_029.jpg */; };
+		C9FCD8B41E8BE03B00543D1F /* apple_an_evolution_in_photos_038.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9FCD8B31E8BE03B00543D1F /* apple_an_evolution_in_photos_038.jpg */; };
+		C9FCD8B61E8BE04300543D1F /* apple_an_evolution_in_photos_043.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9FCD8B51E8BE04300543D1F /* apple_an_evolution_in_photos_043.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		C9FCD8991E8B399400543D1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9FCD89C1E8B399400543D1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9FCD89E1E8B399400543D1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9FCD8A41E8B81EE00543D1F /* ExpandedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandedViewController.swift; sourceTree = "<group>"; };
+		C9FCD8A61E8BDF7E00543D1F /* apple_an_evolution_in_photos_000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple_an_evolution_in_photos_000.jpg; sourceTree = "<group>"; };
+		C9FCD8A91E8BDFCB00543D1F /* apple_an_evolution_in_photos_001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple_an_evolution_in_photos_001.jpg; sourceTree = "<group>"; };
+		C9FCD8AB1E8BDFF200543D1F /* mac-128k.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mac-128k.jpg"; sourceTree = "<group>"; };
+		C9FCD8AD1E8BE00300543D1F /* apple_an_evolution_in_photos_023.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple_an_evolution_in_photos_023.jpg; sourceTree = "<group>"; };
+		C9FCD8AF1E8BE02000543D1F /* apple_an_evolution_in_photos_027.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple_an_evolution_in_photos_027.jpg; sourceTree = "<group>"; };
+		C9FCD8B11E8BE02E00543D1F /* apple_an_evolution_in_photos_029.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple_an_evolution_in_photos_029.jpg; sourceTree = "<group>"; };
+		C9FCD8B31E8BE03B00543D1F /* apple_an_evolution_in_photos_038.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple_an_evolution_in_photos_038.jpg; sourceTree = "<group>"; };
+		C9FCD8B51E8BE04300543D1F /* apple_an_evolution_in_photos_043.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple_an_evolution_in_photos_043.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +75,28 @@
 				C9FCD8921E8B399400543D1F /* AppDelegate.swift */,
 				C9FCD8941E8B399400543D1F /* ViewController.swift */,
 				C9FCD8961E8B399400543D1F /* Main.storyboard */,
+				C9FCD8A81E8BDF9400543D1F /* images */,
+				C9FCD8A41E8B81EE00543D1F /* ExpandedViewController.swift */,
 				C9FCD8991E8B399400543D1F /* Assets.xcassets */,
 				C9FCD89B1E8B399400543D1F /* LaunchScreen.storyboard */,
 				C9FCD89E1E8B399400543D1F /* Info.plist */,
 			);
 			path = SlideshowApp;
+			sourceTree = "<group>";
+		};
+		C9FCD8A81E8BDF9400543D1F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C9FCD8A61E8BDF7E00543D1F /* apple_an_evolution_in_photos_000.jpg */,
+				C9FCD8A91E8BDFCB00543D1F /* apple_an_evolution_in_photos_001.jpg */,
+				C9FCD8AB1E8BDFF200543D1F /* mac-128k.jpg */,
+				C9FCD8AD1E8BE00300543D1F /* apple_an_evolution_in_photos_023.jpg */,
+				C9FCD8AF1E8BE02000543D1F /* apple_an_evolution_in_photos_027.jpg */,
+				C9FCD8B11E8BE02E00543D1F /* apple_an_evolution_in_photos_029.jpg */,
+				C9FCD8B31E8BE03B00543D1F /* apple_an_evolution_in_photos_038.jpg */,
+				C9FCD8B51E8BE04300543D1F /* apple_an_evolution_in_photos_043.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +159,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9FCD8A71E8BDF7E00543D1F /* apple_an_evolution_in_photos_000.jpg in Resources */,
+				C9FCD8B61E8BE04300543D1F /* apple_an_evolution_in_photos_043.jpg in Resources */,
+				C9FCD8B01E8BE02000543D1F /* apple_an_evolution_in_photos_027.jpg in Resources */,
 				C9FCD89D1E8B399400543D1F /* LaunchScreen.storyboard in Resources */,
+				C9FCD8AA1E8BDFCB00543D1F /* apple_an_evolution_in_photos_001.jpg in Resources */,
+				C9FCD8AC1E8BDFF200543D1F /* mac-128k.jpg in Resources */,
+				C9FCD8B21E8BE02E00543D1F /* apple_an_evolution_in_photos_029.jpg in Resources */,
 				C9FCD89A1E8B399400543D1F /* Assets.xcassets in Resources */,
+				C9FCD8B41E8BE03B00543D1F /* apple_an_evolution_in_photos_038.jpg in Resources */,
+				C9FCD8AE1E8BE00300543D1F /* apple_an_evolution_in_photos_023.jpg in Resources */,
 				C9FCD8981E8B399400543D1F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9FCD8A51E8B81EE00543D1F /* ExpandedViewController.swift in Sources */,
 				C9FCD8951E8B399400543D1F /* ViewController.swift in Sources */,
 				C9FCD8931E8B399400543D1F /* AppDelegate.swift in Sources */,
 			);
