@@ -21,6 +21,11 @@ class ViewController: UIViewController {
     
     var imageCount = 0
     
+    func updateImage() {
+        let firstImage: UIImage = UIImage(named: ImageArray[imageCount])!
+        Image.image = firstImage
+    }
+    
     @IBOutlet weak var fowordbtn: UIButton!
     @IBOutlet weak var backbtn: UIButton!
     
@@ -54,14 +59,10 @@ class ViewController: UIViewController {
 
     @IBAction func proceedPhoto(_ sender: Any) {
         imageCount += 1
-        if imageCount < 8 {
-            let firstImage: UIImage = UIImage(named: ImageArray[imageCount])!
-            Image.image = firstImage
-        } else {
+        if imageCount >= 8 {
             imageCount = 0
-            let firstImage: UIImage = UIImage(named: ImageArray[imageCount])!
-            Image.image = firstImage
         }
+        updateImage()
     }
     
     @IBAction func playPhoto(_ sender: Any) {
@@ -82,17 +83,15 @@ class ViewController: UIViewController {
     
     @IBAction func backphoto(_ sender: Any) {
         imageCount -= 1
-        if imageCount >= 0 {
-            let firstImage = UIImage(named: ImageArray[imageCount])
-            Image.image = firstImage
-        } else {
+        if imageCount < 0 {
             imageCount = 7
-            let firstImage: UIImage = UIImage(named: ImageArray[imageCount])!
-            Image.image = firstImage
         }
+        updateImage()
     }
     
     @IBAction func unwind(segue: UIStoryboardSegue) {
+        fowordbtn.isEnabled = true
+        backbtn.isEnabled = true
     }
 
 }
